@@ -1,0 +1,18 @@
+button, .btn {
+  border: none;
+  outline: none;
+  background-color: #3E9217;
+  font-size: 48px;
+  line-height: 60px;
+  border-radius: 45px;
+  color: #fff;
+  padding: 40px 100px;
+  cursor: pointer;
+  transition: background-color ease 0.3s, transform ease 0.3s;
+}
+button:hover, .btn:hover {
+  transform: scale(1.05);
+}
+button:active, .btn:active {
+  background-color: #51be1e;
+}/*# sourceMappingURL=Button.css.map */

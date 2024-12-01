@@ -1,0 +1,37 @@
+.container-upload-result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 170px;
+}
+
+.upload, .result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #615858;
+  width: 800px;
+  height: 675px;
+  margin-bottom: 32px;
+}
+
+.upload-arrows, .result-arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 114px;
+  margin-bottom: 35px;
+}
+
+.arrow {
+  cursor: pointer;
+}/*# sourceMappingURL=Upload.css.map */

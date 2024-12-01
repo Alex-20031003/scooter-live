@@ -1,0 +1,35 @@
+@mixin flex($justify: center, $align: center){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.container-upload-result{
+    @include flex();
+    flex-direction: row;
+    align-items: center;
+    gap: 170px;
+}
+
+.upload, .result{
+    @include flex();
+    flex-direction: column;
+}
+
+.box{
+    @include flex();
+    background-color: #615858;
+    width: 800px;
+    height: 675px;
+    margin-bottom: 32px;
+}
+
+.upload-arrows, .result-arrows{
+    @include flex();
+    gap: 114px;
+    margin-bottom: 35px;
+}
+
+.arrow{
+    cursor: pointer;
+}

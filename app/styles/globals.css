@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inder", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  background: linear-gradient(to bottom, #0e1379, #000000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}/*# sourceMappingURL=globals.css.map */
